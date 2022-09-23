@@ -1,0 +1,8 @@
+1 - Why were promises discovered?
+
+promises are discovered to escape from callback hell.
+
+2 - Why are async await better than promise.then design pattern? ? Explain with an example.
+
+Well in promises.then() if any function depended on another function, then we have to call that function inside present .then(). So, If there are more depended fucntion then it will also looks like more nested kind of thing.
+So to avoid that we can use Async Await functions. Async await function looks like in synchronous way, but they are not.
